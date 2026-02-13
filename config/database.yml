@@ -1,0 +1,15 @@
+# This application does not use a database, but Rails still requires this file to exist
+# The configuration below is a placeholder that won't actually be used
+
+test: &test
+  adapter: sqlite3
+  database: ":memory:"
+  pool: 5
+  timeout: 5000
+
+development:
+  <<: *test
+
+production:
+  <<: *test
+
