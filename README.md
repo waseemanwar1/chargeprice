@@ -33,7 +33,7 @@ Exports processed data to CSV:
 ## Setup Instructions
 
 ### Requirements
-- Ruby 3.0.0
+- Ruby 3.2.2
 - Rails 7.1.5+
 - Bundler
 
